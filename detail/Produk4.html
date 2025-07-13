@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bolivar Boots - Custom Sepatu Kulit</title>
+  <link rel="stylesheet" href="../CSS/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <script defer src="../JS/keranjang.js"></script>
+  <script src="../JS/cart.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">Bolivar Boots</div>
+    <nav>
+      <ul class="nav-menu">
+      <li><a href="../index.html">Beranda</a></li>
+      <li><a href="../produk.html">Produk</a></li>
+      <li><a href="../kontak.html">Kontak</a></li>   
+      </div>            
+      </ul>
+    </nav>
+    <div class="user-links">
+      <a href="../cart.html" class="btn-link cart-link"> 🛒 </a>
+      <a href="../login.html" class="btn-link login-link">
+        <i class="fas fa-user icon"></i> Login</a>
+    </div>        
+  </header>
+<body>
+  <main class="detail-produk">
+    <img src="../images/bolivarboots07.jpg" alt="Lizard Boots">
+    <h1>Lizard Boots</h1>
+    <p class="harga">Rp4.000.000</p>
+    <p>Boots elegan dengan bahan kulit biawak asli yang memberikan tekstur unik dan tampilan eksklusif. Sangat cocok untuk acara formal maupun kasual dengan gaya maskulin yang tegas.</p>
+    <button onclick='tambahKeKeranjang({
+      id: "Lizard Boots",
+      nama: "Lizard Boots",
+      harga: 3100000,
+      gambar: "../images/bolivarboots07.jpg"
+    })'>Masukkan ke Keranjang</button>
+  </main>
+  <footer>
+    <p>&copy; 2025 Bolivar Boots. All rights reserved.</p>
+    <p>📧 Email: bolivarboots@gmail.com | 📞 +62 855-5941-6232 | 📍 Bandung, Indonesia</p>
+  </footer>
+</body>
+</html>
