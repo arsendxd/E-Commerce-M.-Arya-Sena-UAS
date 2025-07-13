@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bolivar Boots - Custom Sepatu Kulit</title>
+  <link rel="stylesheet" href="CSS/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <script defer src="JS/keranjang.js"></script>
+  <script src="JS/filter-bar.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">Bolivar Boots</div>
+    <nav>
+      <ul class="nav-menu">
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="produk.html">Produk</a></li>
+      <li><a href="kontak.html">Kontak</a></li>   
+      </div>            
+      </ul>
+    </nav>
+    <div class="user-links">
+      <a href="cart.html" class="btn-link cart-link"> 🛒 </a>
+      <a href="login.html" class="btn-link login-link">
+        <i class="fas fa-user icon"></i> Login</a>
+    </div>        
+  </header>
+
+  <section class="semua-produk">
+    <div class="produk-header">
+      <h1 class="judul-produk">Semua Produk</h1>
+      <div class="filter-bar">
+        <form id="filterFormBar" class="filter-form">
+          <select id="kategoriBar" name="kategoriBar" required>
+            <option value="">Semua Kategori</option>
+            <option value="#boots-pria">Boots Pria</option>
+            <option value="#boots-wanita">Boots Wanita</option>
+            <option value="#Letaher Vest">Letaher Vest</option>
+            <option value="#aksesoris-kulit">Aksesoris Kulit</option>
+          </select>
+          <button type="submit" class="filter-btn">Terapkan</button>
+        </form>
+      </div>
+    </div>        
+  <main>
+    <section id="boots-pria" class="produk-kategori">
+      <h2>Boots Pria</h2>
+      <div class="produk-list">
+        <article class="produk-item">
+          <img src="images/bolivarboots16.jpg" alt="Boots Snake">
+          <h3>Boots Snake</h3>
+          <p>Desain simpel dengan kulit ular asli.</p>
+          <p class="harga">Rp4.000.000</p>
+          <div class="produk-buttons">
+          <button onclick='tambahKeKeranjang({
+            id: "Snake",
+            nama: "Boots Snake",
+            harga: 2500000,
+            gambar: "images/bolivarboots16.jpg"
+          })'>Tambah ke Keranjang</button> 
+          <a href="detail/Produk1.html" class="btn-detail">Detail Produk</a>
+          </div>             
+        </article>
+        <article class="produk-item">
+          <img src="images/bolivarboots15.jpg" alt="Originale1">
+          <h3>Boots Originale</h3>
+          <p>Cocok untuk touring jauh dengan disain yang simpel dan macho.</p>
+          <p class="harga">Rp5.000.000</p>
+          <div class="produk-buttons">
+          <button onclick='tambahKeKeranjang({
+            id: "Originale1",
+            nama: "Boots Originale",
+            harga: 2800000,
+            gambar: "images/bolivarboots15.jpg"
+          })'>Tambah ke Keranjang</button> 
+          <a href="detail/Produk2.html" class="btn-detail">Detail Produk</a>
+          </div>             
+        </article>
+        <article class="produk-item">
+          <img src="images/bolivarboots09.jpg" alt="Classic Cowboy Boots">
+          <h3>Classic Cowboy Boots</h3>
+          <p>Bergaya cowboy classic.</p>
+          <p class="harga">Rp3.000.000</p>
+          <div class="produk-buttons">
+          <button onclick='tambahKeKeranjang({
+            id: "Classic Cowboy",
+            nama: "Classic Cowboy",
+            harga: 3100000,
+            gambar: "images/bolivarboots09.jpg"
+          })'>Tambah ke Keranjang</button>   
+          <a href="detail/Produk3.html" class="btn-detail">Detail Produk</a>   
+          </div>        
+        </article>
+        <article class="produk-item">
+          <img src="images/bolivarboots07.jpg" alt="Lizard Boots">
+          <h3>Lizard Boots</h3>
+          <p>Desain simpel dengan kulit biawak asli</p>
+          <p class="harga">Rp4.000.000</p>
+          <div class="produk-buttons">
+          <button onclick='tambahKeKeranjang({
+            id: "Lizard Boots",
+            nama: "Lizard Boots",
+            harga: 3100000,
+            gambar: "images/bolivarboots07.jpg"
+          })'>Tambah ke Keranjang</button>   
+          <a href="detail/Produk4.html" class="btn-detail">Detail Produk</a>  
+          </div>         
+        </article>
+        <article class="produk-item">
+          <img src="images/bolivarboots11.jpg" alt="Full Detail Boots">
+          <h3>Full Detail Boots</h3>
+          <p>full</p>
+          <p class="harga">Rp5.000.000</p>
+          <div class="produk-buttons">
+          <button onclick='tambahKeKeranjang({
+            id: "Full Detail Boots",
+            nama: "Full Detail Boots",
+            harga: 3100000,
+            gambar: "images/bolivarboots11.jpg"
+          })'>Tambah ke Keranjang</button>   
+          <a href="detail/Produk5.html" class="btn-detail">Detail Produk</a>  
+          </div>         
+        </article>
+        <article class="produk-item">
+          <img src="images/bolivarboots20.jpg" alt="Steel Toe Boots">
+          <h3>Steel Toe Boots</h3>
+          <p>Boot ini di rancang untuk segala medan</p>
+          <p class="harga">Rp2.500.000</p>
+          <div class="produk-buttons">
+          <button onclick='tambahKeKeranjang({
+            id: "Steel Toe Boots",
+            nama: "Steel Toe Boots",
+            harga: 3100000,
+            gambar: "images/bolivarboots20.jpg"
+          })'>Tambah ke Keranjang</button>   
+          <a href="detail/Produk6.html" class="btn-detail">Detail Produk</a>  
+          </div>         
+        </article>
+        <article class="produk-item">
+          <img src="images/bolivarboots10.jpg" alt="Details Boots">
+          <h3>Details Boots</h3>
+          <p>Boots dengan detail kecil yang stand out</p>
+          <p class="harga">Rp3.000.000</p>
+          <div class="produk-buttons">
+          <button onclick='tambahKeKeranjang({
+            id: "Details Boots",
+            nama: "Details Boots",
+            harga: 3100000,
+            gambar: "images/bolivarboots10.jpg"
+          })'>Tambah ke Keranjang</button>   
+          <a href="detail/Produk7.html" class="btn-detail">Detail Produk</a>
+        </div>           
+        </article>
+        <article class="produk-item">
+          <img src="images/bolivarboots18.jpg" alt="Short Boots">
+          <h3>Short Boots</h3>
+          <p>Bergaya rebel dengan aksesoris simpel .</p>
+          <p class="harga">Rp2.000.000</p>
+          <div class="produk-buttons">
+          <button onclick='tambahKeKeranjang({
+            id: "Short Boots",
+            nama: "Short Boots",
+            harga: 3100000,
+            gambar: "images/bolivarboots18.jpg"
+          })'>Tambah ke Keranjang</button>   
+          <a href="detail/Produk8.html" class="btn-detail">Detail Produk</a>      
+          </div>     
+        </article>
+        <article class="produk-item">
+          <img src="images/bolivarboots17.jpg" alt="Smart Letaher Shoes">
+          <h3>Smart Letaher Shoes</h3>
+          <p>Cocok untuk gaya yang rapih dengan aksen yang simpel nan elegan</p>
+          <p class="harga">Rp2.000.000</p>
+          <div class="produk-buttons">
+          <button onclick='tambahKeKeranjang({
+            id: "Smart Letaher Shoes",
+            nama: "Smart Letaher Shoes",
+            harga: 3100000,
+            gambar: "images/bolivarboots17.jpg"
+          })'>Tambah ke Keranjang</button>   
+          <a href="detail/Produk9.html" class="btn-detail">Detail Produk</a> 
+          </div>          
+        </article>
+      </div>
+    </section>
+    
+    <!-- Boots Wanita -->
+    <section id="boots-wanita" class="produk-kategori">
+      <h2>Boots Wanita</h2>
+      <div class="produk-list">
+        <article class="produk-item">
+          <img src="images/bolivarboots04.jpg" alt="Suide Middle Woman Boots">
+          <h3>Suide Middle Woman Boots</h3>
+          <p>Berbahan suide polos dengan gaya simpel namun tetap tradisional .</p>
+          <p class="harga">Rp2.000.000</p>
+          <div class="produk-buttons">
+          <button onclick='tambahKeKeranjang({
+            id: "Suide Middle Woman Boots",
+            nama: "Suide Middle Woman Boots",
+            harga: 3300000,
+            gambar: "images/bolivarboots04.jpg"
+          })'>Tambah ke Keranjang</button>   
+          <a href="detail/Produk10.html" class="btn-detail">Detail Produk</a>  
+          </div>         
+        </article>
+        <article class="produk-item">
+          <img src="images/bolivarboots05.jpg" alt="Suide Height Woman Boots">
+          <h3>Suide Height Woman Boots</h3>
+          <p>Menampilkan gaya sangar namun simpel.</p>
+          <p class="harga">Rp3.000.000</p>
+          <div class="produk-buttons">
+          <button onclick='tambahKeKeranjang({
+            id: "Suide Height Woman Boots",
+            nama: "Suide Height Woman Boots",
+            harga: 2400000,
+            gambar: "images/bolivarboots05.jpg"
+          })'>Tambah ke Keranjang</button>   
+          <a href="detail/Produk11.html" class="btn-detail">Detail Produk</a>  
+          </div>         
+        </article>
+      </div>
+    </section>
+    
+    <!-- Vest -->
+    <section id="Letaher Vest" class="produk-kategori">
+      <h2>Leather Vest</h2>
+      <div class="produk-list">
+        <article class="produk-item">
+          <img src="images/bolivarboots22.jpg" alt="Simply Biker Vest">
+          <h3>Simply Biker Vest</h3>
+          <p>Rompi kulit bergaya classic biker yang simpel.</p>
+          <p class="harga">Rp900.000</p>
+          <div class="produk-buttons">
+          <button onclick='tambahKeKeranjang({
+            id: "Simply Biker Vest",
+            nama: "Simply Biker Vest",
+            harga: 4200000,
+            gambar: "images/bolivarboots22.jpg"
+          })'>Tambah ke Keranjang</button>  
+          <a href="detail/Produk12.html" class="btn-detail">Detail Produk</a>
+          </div>            
+        </article>
+        <article class="produk-item">
+          <img src="images/bolivarboots23.jpg" alt="Classic Bikers Vest">
+          <h3>Classic Bikers Vest</h3>
+          <p>Rompi bergaya biker classic yang terlihat sangar.</p>
+          <p class="harga">Rp800.000</p>
+          <div class="produk-buttons">
+          <button onclick='tambahKeKeranjang({
+            id: "Classic Bikers Vest",
+            nama: "Classic Bikers Vest",
+            harga: 4500000,
+            gambar: "images/bolivarboots23.jpg"
+          })'>Tambah ke Keranjang</button>  
+          <a href="detail/Produk13.html" class="btn-detail">Detail Produk</a> 
+          </div>           
+        </article>
+      </div>
+    </section>
+    
+    <!-- Aksesoris Kulit -->
+    <section id="aksesoris-kulit" class="produk-kategori">
+      <h2>Aksesoris Kulit</h2>
+      <div class="produk-list">
+        <article class="produk-item">
+          <img src="images/bolivarboots26.jpg" alt="Belt Classic">
+          <h3>Belt Classic"Non Buckle"</h3>
+          <p>Sabuk kulit asli warna coklat, tahan lama.</p>
+          <p class="harga">Rp500.000</p>
+          <div class="produk-buttons">
+          <button onclick='tambahKeKeranjang({
+            id: "belt-classic",
+            nama: "Belt Classic",
+            harga: 850000,
+            gambar: "images/bolivarboots26.jpg"
+          })'>Tambah ke Keranjang</button>   
+          <a href="detail/Produk14.html" class="btn-detail">Detail Produk</a> 
+          </div>          
+        </article>
+        <article class="produk-item">
+          <img src="images/bolivarboots25.jpg" alt="Wallet Rustic">
+          <h3>Wallet Rustic</h3>
+          <p>Dompet kulit vintage dengan banyak slot kartu.</p>
+          <p class="harga">Rp500.000</p>
+          <div class="produk-buttons">
+          <button onclick='tambahKeKeranjang({
+            id: "wallet-rustic",
+            nama: "Wallet Rustic",
+            harga: 900000,
+            gambar: "images/bolivarboots25.jpg"
+          })'>Tambah ke Keranjang</button>   
+          <a href="detail/Produk15.html" class="btn-detail">Detail Produk</a>  
+          </div>         
+        </article>
+      </div>
+    </section>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Bolivar Boots. All rights reserved.</p>
+    <p>📧 Email: bolivarboots@gmail.com | 📞 +62 855-5941-6232 | 📍 Bandung, Indonesia</p>
+  </footer>
+</body>
+</html>
