@@ -6,3 +6,4 @@ window.addEventListener("DOMContentLoaded", () => {
       cartLink.textContent = `🛒 (${totalJumlah})`;
     }
   });
+  -
